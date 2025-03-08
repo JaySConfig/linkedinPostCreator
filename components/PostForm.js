@@ -35,8 +35,8 @@ export default function PostForm({ onSubmit }) {
           value={formData.topic}
           onChange={handleChange}
           required
-          className="mt-1 block w-full px-3 py-2 border rounded-md"
-          placeholder="e.g., 'Leadership tips' or 'Industry trends'"
+          className="w-full px-4 py-2 border rounded-md text-gray-700"
+          placeholder="e.g., &apos;Leadership tips&apos; or &apos;Industry trends&apos;"
         />
       </div>
 

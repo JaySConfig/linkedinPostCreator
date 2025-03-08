@@ -157,12 +157,11 @@ export default function Home() {
         </div>
     </section>
     <footer className="bg-gray-900 text-white py-6 text-center mt-12">
-    <div className="max-w-4xl mx-auto px-6">
-        <p className="text-sm">⚡ Built by <a href="https://twitter.com/JaySConfig" className="underline hover:text-gray-300">JaySConfig</a> – because writing LinkedIn posts manually is so 2023.</p>
+      <div className="max-w-4xl mx-auto px-6">
+        <p className="text-sm">⚡ Built by <a href="https://twitter.com/JaySConfig" className="underline hover:text-gray-300">JaySConfig</a> &ndash; because writing LinkedIn posts manually is so 2023.</p>
         <p className="text-sm mt-2">&copy; {new Date().getFullYear()} All Rights Reserved.</p>
-
-    </div>
-</footer>
+      </div>
+    </footer>
 
     
 
