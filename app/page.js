@@ -134,8 +134,8 @@ export default function Home() {
 
                 {/* Step 4 */}
                 <div className="bg-white p-4 sm:p-6 rounded-lg shadow">
-                    <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-900">4️⃣ Click "Generate LinkedIn Post"</h3>
-                    <p className="text-gray-700">Hit the blue button, and in seconds, you'll get a fully structured LinkedIn post that you can copy, tweak, and post! 🚀</p>
+                    <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-900">4️⃣ Click &quot;Generate LinkedIn Post&quot;</h3>
+                    <p className="text-gray-700">Hit the blue button, and in seconds, you&apos;ll get a fully structured LinkedIn post that you can copy, tweak, and post! 🚀</p>
                 </div>
 
                 {/* Benefits */}
