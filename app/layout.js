@@ -12,11 +12,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Free LinkedIn Post Creator",
-  description: "Create high-quality LinkedIn posts in seconds with our free LinkedIn Post Generator. Generate engaging, structured posts effortlessly. Perfect for personal branding, networking, and business growth",
+  title: {
+    default: "Free LinkedIn Post Creator",
+    template: "%s | LinkedIn Post Creator"
+  },
+  description: "Create high-quality LinkedIn posts in seconds with our free LinkedIn Post Generator.",
+  openGraph: {
+    title: "Free LinkedIn Post Creator",
+    description: "Create high-quality LinkedIn posts in seconds with our free LinkedIn Post Generator."
+  }
 };
 
 export default function RootLayout({ children }) {
+  console.log("RootLayout is running");
   return (
     <html lang="en">
       <head>
