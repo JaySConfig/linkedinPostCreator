@@ -26,7 +26,7 @@ export default function PostForm({ onSubmit }) {
     <form onSubmit={handleSubmit} className="space-y-6">
       <div>
         <label htmlFor="topic" className="block text-sm font-medium">
-          What's your post about?
+          What is your post about?
         </label>
         <input
           type="text"
