@@ -74,12 +74,10 @@ export default function Home() {
                     </div>
                 )}
 
-                {generatedPost && !isLoading && (
-                    <PostPreview 
-                        post={generatedPost} 
-                        onSendEmail={handleSendEmail} 
-                    />
-                )}
+{/* // In your page.js or wherever you render the PostPreview */}
+                  {generatedPost && !isLoading && (
+                    <PostPreview post={generatedPost} />
+                  )}
 
                 {emailSent && (
                     <div className="mt-4 p-3 sm:p-4 bg-green-100 text-green-700 font-medium rounded-md text-center">
